@@ -3,9 +3,10 @@ import pandas as pd
 
 st.set_page_config(
     'Livianu - ECOP06'
-    'https://unifei.edu.br/wp-content/themes/twentytwelve-child/img/cabecalho/logo-unifei-oficial.png')
+    'https://http2.mlstatic.com/D_NQ_NP_928746-MLB47621207721_092021-O.webp')
 
-st.title(('Página Teste ECOP06'))
+st.title(('Palmeiras não tem mundial'))
+st.subheader('51 é pinga')
 
 esportes = pd.read_csv(
     'https://github.com/MainakRepositor/Datasets/raw/master/GeneralEsportData.csv',
